@@ -1,9 +1,17 @@
 [package]
-name = "libtsdb-rs"
+# https://github.com/rust-lang/api-guidelines/issues/29 avoid -rs suffix
+name = "libtsdb"
 version = "0.0.1"
+description = "A library for building time series database"
 authors = ["at15 <at15@outlook.com>"]
+license = "MIT"
+repository = "https://github.com/libtsdb/libtsdb-rs"
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+include = [
+  "Cargo.toml",
+  "LICENSE",
+  "src/**/*",
+]
 
 [dependencies]
