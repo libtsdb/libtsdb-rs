@@ -1,22 +1,8 @@
 # libtsdb-rs
 
-- status: Under early development (认真的, 这次不咕了)
+A rust implementation of [libtsdb-go](https://github.com/libtsdb/libtsdb-go)
 
-## TODO
-
-Just a rough roadmap
-
-- [ ] pick crate name, `libtsdb`, `libtsdb-rs`, `libtsdb_rs`
-- [ ] publish to crate
-- [ ] implement common compression
-  - [ ] rle
-  - [ ] var len
-  - [ ] gorilla tgz
-- [ ] decode popular tsdb on disk format
-  - [ ] influxdb
-  - [ ] prometheus
-  - [ ] graphite
-- [ ] client and server protocols
+- status: Under very early development, see [roadmap](doc/ROADMAP.md).
 
 ## License
 
